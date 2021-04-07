@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap');
+
+body {
+  background-image: url("../img/background.jpg");
+  background-size: 1920px 1501px;
+  font-family: 'Do Hyeon', sans-serif;
+  font-size: 22px;
+}
+
+#wrap {
+  width: 1200px;
+  margin: 0 auto;
+  overflow: hidden;
+}

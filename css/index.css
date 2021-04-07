@@ -1,0 +1,56 @@
+section {
+  text-align: center;
+}
+
+.container {
+  position: relative;
+  width: 300px;
+  margin: 0 25px;
+  display: inline-block;
+}
+
+/* Make the image responsive */
+.container img {
+  width: 100%;
+  height: auto;
+}
+
+/* Style the button and place it in the middle of the container/image */
+.container .btn {
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: white;
+  color: black;
+  font-family: 'Do Hyeon', sans-serif;
+  font-size: 23px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.container .btn:hover {
+  background-color: #ACACAC;
+}
+
+header a {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  width: 600px;
+}
+
+header p {
+  font-size: 40px;
+  color: white;
+  text-align: center;
+  margin-top: 0;
+}
+
+header img {
+  width: 600px;
+}
